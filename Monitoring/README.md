@@ -100,7 +100,7 @@ grafana                 https://grafana.github.io/helm-charts
 
 <br>
 
-### 🚀 4단계: Prometheus 설치 (NFS 연동)<br>
+###  4단계: Prometheus 설치 (NFS 연동)<br>
 
 **헬름 차트를 이용해 프로메테우스를 설치. 여기서는 모니터링 관련 도구들을 monitoring이라는 별도의 네임스페이스에 설치하여 관리함.**
 
@@ -125,7 +125,7 @@ ubuntu@masternode:~/k8s-test$ helm install prometheus prometheus-community/prome
 
 <br>
 
-### 📈 5단계: Grafana 설치<br>
+###  5단계: Grafana 설치<br>
 
 ```bash
 ubuntu@masternode:~/k8s-test$ helm install grafana grafana/grafana \
@@ -155,7 +155,7 @@ ubuntu@masternode:~/k8s-test$ kubectl --namespace monitoring port-forward $GRAFA
 ```
 <br>
 
-**✅ Pod 상태 확인**
+**Pod 상태 확인**
 <br>
 
 ```bash
